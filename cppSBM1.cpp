@@ -366,7 +366,7 @@ void check(Matrix& m, float ** xs, float ** ys, float x_, float xu, float y_, fl
 		std::cout << ")  \t= " << f << "\t from " << func(x, y, z) << "\t\t\tErr: " << abs(f - func(x, y, z)) << "\n";
 		err += abs(f - func(x, y, z)) * abs(f - func(x, y, z));
 	}
-	std::cout << "MASM: " << sqrt(err / SIZE_CHECK) << "\n";
+	std::cout << "MSE: " << sqrt(err / SIZE_CHECK) << "\n";
 }
 
 
