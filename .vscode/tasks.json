@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "outDir": "\"${workspaceRoot}/bin/main\"",
+    "tasks": [
+        {
+            "label": "building",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "./src/*.cpp",
+                "-o",
+                "\"${workspaceRoot}/bin/main\""
+            ],
+            "group": "build"
+        }
+    ]
+}
