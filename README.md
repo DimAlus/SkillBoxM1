@@ -1,0 +1,1 @@
+[О форматтере](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
